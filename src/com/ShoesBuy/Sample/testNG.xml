@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" thread-count="2" verbose="7" >
+
+	<parameter name="browserName" value="chrome" />
+	<test name="ChromeTest">
+
+		<classes>
+			<class name="com.ShoesBuy.Sample.SampleTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="7" name="Failed suite [Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test thread-count="2" verbose="7" name="ChromeTest(failed)">
+    <classes>
+      <class name="com.ShoesBuy.Sample.SampleTest">
+        <methods>
+          <include name="logoutPage"/>
+          <include name="TC_Address_Delete"/>
+          <include name="TC_DeletePaymentDetails"/>
+          <include name="loginPage"/>
+          <include name="launchBrowser"/>
+          <include name="TC_Address_add"/>
+          <include name="TC_AddPaymentDetails"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.ShoesBuy.Sample.SampleTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

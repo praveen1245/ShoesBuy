@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="17"
+           failures="1"
+           errors="0"
+           skipped="16"
+           time="0.000">
+  <properties />
+            <testcase name="launchBrowser" time="0.000" classname="com.ShoesBuy.Sample.SampleTest">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;browserName&apos; is required by BeforeSuite on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\prave\Desktop\WorkSpace\ShoesBuy\testngnew.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeSuite on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\prave\Desktop\WorkSpace\ShoesBuy\testngnew.xml
+  org.testng.internal.Parameters.createParams(Parameters.java:290)
+  org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+  org.testng.internal.Parameters.createParameters(Parameters.java:620)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="logoutPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="closeBrowser" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginPage" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="TC_Address_add" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="TC_AddPaymentDetails" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="TC_DeletePaymentDetails" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="TC_Address_Delete" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+            <testcase name="TC_Login_Verification" time="0.0" classname="com.ShoesBuy.Sample.SampleTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
